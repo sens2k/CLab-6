@@ -21,7 +21,6 @@ int main()
     {
         printf("arr[%d] --> %d, %X\n", i, arr[i], &arr[i]);
     }
-	//arr = &arr[2];
 	pArr = &arr[2];
 	for (i = -2; i < 3; i++)
 	{
